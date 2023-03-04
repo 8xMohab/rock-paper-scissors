@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  html {
+    font-family: "Barlow Semi Condensed", sans-serif;
+    /* Created with https://www.css-gradient.com */
+    background: #141639;
+    background: -webkit-linear-gradient(bottom, #141639, #203757);
+    background: -moz-linear-gradient(bottom, #141639, #203757);
+    background: linear-gradient(to top, #141639, #203757);
+  }
+}
+@layer components {
+  .winner-animation {
+    background-color: white;
+    position: absolute;
+    border-radius: 50%;
+    z-index: -2;
+    opacity: 0.05;
+  }
+}
