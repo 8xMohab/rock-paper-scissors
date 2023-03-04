@@ -11,6 +11,17 @@
     background: -moz-linear-gradient(bottom, #141639, #203757);
     background: linear-gradient(to top, #141639, #203757);
   }
+  @media (min-width: 1024px) {
+    html {
+      /* Created with https://www.css-gradient.com */
+      background: #203757;
+      background-image: radial-gradient(
+        at top,
+        hsl(214, 47%, 23%) 0%,
+        hsl(237, 49%, 15%) 100%
+      );
+    }
+  }
 }
 @layer components {
   .winner-animation {
